@@ -53,3 +53,13 @@ console.log(message.startsWith('hey'))
 console.log(message.includes('Vinicius'))
 console.log(message.endsWith('you'))
 console.log(message.repeat(count))
+
+//templates literals
+let firstName = 'rick'
+const email = 'hi Vinibala, \nhow are you?  \nVinicius'
+const email2 = 'hi ' + firstName + ' \nhow are you?'
+
+
+
+console.log (email)
+console.log (email2)
