@@ -1,0 +1,10 @@
+h1 {
+    color: blue;
+    font-size: medium;
+}
+h2 {
+    color: red;
+    text-decoration: wavy;
+    text-decoration-style: double;
+    text-align: start;
+}
