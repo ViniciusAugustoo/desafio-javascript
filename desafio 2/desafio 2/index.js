@@ -79,3 +79,42 @@ const tempPositive = tempLondon.every(function(value){   //se mudar de every par
 })
 
 console.log(tempPositive)
+
+// function declaration
+
+function movie2(){
+    console.log('Harry potter')
+}
+
+movie2()
+
+// function expression
+
+const car = function() {
+    console.log('toyota')
+}
+
+car()
+
+const cyberTruck = car
+
+cyberTruck()
+
+// funçoes
+
+function price (a, b)  {
+    let total = 0 
+    for (let value of arguments)
+        total += value
+    return total 
+}
+
+console.log(price(10, 10, 10))
+
+// parametros default
+
+function carLoan(loan, rate, years) {
+    return (loan  * rate / 100 * years) + loan
+}
+
+console.log(carLoan(20000, 2.5, 5))
