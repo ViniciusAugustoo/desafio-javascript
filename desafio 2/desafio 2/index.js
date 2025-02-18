@@ -70,3 +70,12 @@ console.log(all, half)
 let clients = ['Marcos', 'Vinicius', 'Vini' ]
 clients.sort()
 console.log(clients)
+
+//elementos na array
+const tempLondon = [18, 13, 8, 2, 0, -2]
+
+const tempPositive = tempLondon.every(function(value){   //se mudar de every para filter + arrow function ele puxa todos os dados armazenados em london 
+    return value >= 0  
+})
+
+console.log(tempPositive)
